@@ -487,6 +487,12 @@ dependencies:
         allowed_scopes:
           - api-platform
 
+  - module: github.com/aws/aws-sdk-go-v2/service/bedrockruntime
+    versions:
+      - version: ">=v1.63.4"
+        allowed_scopes:
+          - api-platform
+
   - module: github.com/aws/aws-sdk-go-v2/service/sts
     versions:
       - version: ">=v1.44.0"
