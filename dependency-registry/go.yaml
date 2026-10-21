@@ -197,6 +197,12 @@ dependencies:
         allowed_scopes:
           - "*"
 
+  - module: go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp
+    versions:
+      - version: ">=v1.44.0"
+        allowed_scopes:
+          - "*"
+
   - module: go.opentelemetry.io/otel/exporters/stdout/stdouttrace
     versions:
       - version: ">=v1.44.0"
