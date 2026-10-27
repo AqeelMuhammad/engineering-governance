@@ -731,3 +731,9 @@ dependencies:
       - version: ">=v1.2.0"
         allowed_scopes:
           - "api-platform"
+
+  - module: gotest.tools/gotestsum
+    versions:
+      - version: ">=v1.13.0"
+        allowed_scopes:
+          - "wso2cloud"
