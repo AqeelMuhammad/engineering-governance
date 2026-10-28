@@ -743,3 +743,9 @@ dependencies:
       - version: ">=v0.6.2"
         allowed_scopes:
           - "*"
+
+  - module: cel.dev/cel-go
+    versions:
+      - version: ">=v0.32.0"
+        allowed_scopes:
+          - "*"
