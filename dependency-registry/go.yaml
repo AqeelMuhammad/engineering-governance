@@ -737,3 +737,9 @@ dependencies:
       - version: ">=v1.13.0"
         allowed_scopes:
           - "wso2cloud"
+
+  - module: github.com/prometheus/client_model
+    versions:
+      - version: ">=v0.6.2"
+        allowed_scopes:
+          - "*"
